@@ -1,0 +1,103 @@
+#user-specific settings
+*.suo
+*.user
+*.userosschache
+*.sln.docstates
+*.userprefs
+*.DotSettings.user
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# dotenv environment variables file
+.env
+
+# Others
+~$*
+*~
+CodeCoverage/
+
+# MSBuild Binary and Structured Log
+*.binlog
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUnit
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Visual Studio cache and database files
+.vs/
+*.Vc.db
+*.VC.VC.opendb
+ipch/
+
+# Local run/debug settings
+**/Properties/launchSettings.json
+
+# Test and coverage results
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+*.VisualState.xml
+
+# Benchmark results
+BenchmarkDotNet.Artifacts/
+
+# Azure / publish settings
+*.azurePubxml
+*.pubxml
+*.publishproj
+PublishScripts/
+*.publishsettings
+publish/
+
+# Generated / Temporary Files
+*.cache
+*.pdb
+*.tmp
+*.log
+*.bak
+
+# SQL Server database files
+*.mdf
+*.ldf
+*.ndf
+
+# Node.js dependencies
+node_modules/
+
+# Docker local overrides
+**/docker-compose.override.yml
