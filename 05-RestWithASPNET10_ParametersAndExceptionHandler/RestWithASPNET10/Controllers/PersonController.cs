@@ -57,12 +57,12 @@ namespace RestWithASPNET10.Controllers
         [HttpPut]
         public IActionResult Put([FromBody] Person person) 
         {
-            _logger.LogInformation("Updating person with ID {id}", person.Id);
+            _logger.LogInformation("Updating person with ID {id}", person.id);
             var updatedPerson = _personService.Update(person);
 
             if (updatedPerson == null)
             {
-                _logger.LogError("Failed to update person with ID {id}", person.Id);
+                _logger.LogError("Failed to update person with ID {id}", person.id);
                 return NotFound();
             }
             _logger.LogDebug("Person update successfully: {firstName}", person.FirstName);

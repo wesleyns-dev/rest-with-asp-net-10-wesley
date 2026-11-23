@@ -1,5 +1,5 @@
 CREATE TABLE [dbo].[books] (
-	[id] INT IDENTITY(1, 1) PRIMARY KEY,
+	[id] bigint NOT NULL IDENTITY,
 	[title] varchar(MAX) NULL,
 	[author] varchar(MAX) NULL,
 	[price] DECIMAL(18,2) NOT NULL,
